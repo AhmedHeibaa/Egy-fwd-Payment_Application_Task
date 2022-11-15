@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1668523770 source:c:\users\dell\desktop\payment_application\appliction\app.c
+	<stdio.h>
+	"../card/card.h"
+	"../server/server.h"
+	"../terminal/terminal.h"
+	"app.h"
+
+1668444661 c:\users\dell\desktop\payment_application\card\card.h
+
+1668450407 c:\users\dell\desktop\payment_application\server\server.h
+	"../card/card.h"
+	"../terminal/terminal.h"
+
+1668444768 c:\users\dell\desktop\payment_application\terminal\terminal.h
+	"../card/card.h"
+
+1668444581 c:\users\dell\desktop\payment_application\appliction\app.h
+
+1668447971 source:c:\users\dell\desktop\payment_application\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1668524020 source:c:\users\dell\desktop\payment_application\server\server.c
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	"../Card/card.h"
+	"../Terminal/terminal.h"
+	"server.h"
+
+1668447919 source:c:\users\dell\desktop\payment_application\terminal\terminal.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"terminal.h"
+
+1668444852 source:c:\users\dell\desktop\payment_application\card\card.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"card.h"
+
